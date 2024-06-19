@@ -17,3 +17,7 @@ module "vpc" {
     Environment = "prod"
   }
 }
+
+resource "aws_s3_bucket" "names3" {
+    
+}
